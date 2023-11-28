@@ -28,7 +28,7 @@
 }
 
 .searcharea{
-    position: fixed;
+    position: absolute;
     right: 90px;
     top: 50px;
     width: 200px;
@@ -461,6 +461,10 @@ footer p{
             .section1button {
                 position: absolute;
                 top: 109%;}
+                .productsection {
+                    width: 60%;
+                    position: relative;
+                    left: 2rem;}
         
                 .productbox {
                     width: 250px;
@@ -470,6 +474,10 @@ footer p{
                    
                  margin-top: -1px;
                 }
+
+                .aboutsection {
+                    display: flex;
+                    height: 40rem;}
                 .aboutsection img {
                     position: relative;
                     height: 12rem;
